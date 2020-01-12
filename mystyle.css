@@ -1,0 +1,42 @@
+body{
+  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+link rel{ 
+    color:navy;
+    margin-left:20px;
+}
+footer{
+    background-color:lightsalmon;
+    text-align: center;
+    width: 100%;
+    padding: 15px; 
+    width: 700px;
+    height: 50px;
+    border-radius: 25px;
+}
+#first-row{
+    background-color:lightsalmon;
+    text-align: center;
+    padding: 15px; 
+    width: 700px;
+    height: 70px;
+    border-radius: 25px;  
+    font-size: 1.0em;
+}
+#second-row{
+    background-color:white;
+    text-align: left;
+    padding: 15px; 
+    width: 700px;
+    height: 120px;  
+    font-size: .9em; 
+}
+img{
+    float: right;
+    margin-top: 15px;
+}
+
+

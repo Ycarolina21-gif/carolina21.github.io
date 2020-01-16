@@ -2,11 +2,16 @@ body{
   
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+h1,h2{
+    font-family: 'Titillium Web', sans-serif;
+}
 
 link rel{ 
     color:navy;
     margin-left:20px;
+}
+header{
+    margin-top: 10px;
 }
 footer{
     background-color:lightsalmon;

@@ -7,6 +7,7 @@ body{
 h1{
     font-size:1.5rem;
     margin:0.15rem;
+    font-family:'Gelasio', serif;
 }
 h2{
     font-size: 1rem;
@@ -24,18 +25,20 @@ header,main, footer{
     max-width: 45rem;
 
 }
+
+  h2{
+    font-family: 'Ibarra Real Nova', serif;
+  }
 header{
     margin-top:10px;
 
 }
 header, footer{
-    background-color:lightsalmon;
+    background-color:rgb(101, 111, 167);
     height: auto;
     max-width: 45rem;
     text-align: center;
 }
-
-
 .middle{
     background-color:white;
     text-align: left;

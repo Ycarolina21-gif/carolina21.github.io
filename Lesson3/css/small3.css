@@ -98,3 +98,15 @@ footer {
 		grid-column: span 1;
 	}
 }
+#color{
+	background-color:rgb(101, 111, 167);
+}
+#color2{
+	background-color: #36454f;
+	color: #fff;
+
+}
+#color3 {
+	background-color: #bbb;
+	color: #36454f;
+}

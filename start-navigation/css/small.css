@@ -11,11 +11,22 @@ header, footer{
     padding:0.75rem;
     margin: 0 auto;
     text-align: center;
+
     
 }
-header img {
-    text-align: left;
+.contentbox {
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed black;
+    padding: 15px;
+    color:black
+    font-style: italic;
 }
+header img{
+    float: left;
+    padding: 18px;
+}
+    
 h1 {
     font-size: 2rem;
     text-align: center;
@@ -46,8 +57,8 @@ nav ul li a{
     color:rgba(255,255,255,0.8);
     border-top:1px solid rgba(0,0,0,0.3);
 }
-nav ul li .active a{background-color: rgba(0,0,0,.2); color:#fff;}
-nav ul li a:hover{ background-color:rgba(0,0,0,.4);
+nav ul li.active a{background-color: rgba(0,0,0,.2); color:#fff;}
+nav ul li a:hover { background-color:rgba(0,0,0,0.4);
 }
 nav ul.hide {
     display: none;
@@ -59,7 +70,7 @@ nav ul.hide {
     clear: both;
   }
   
-
+ 
 
 
 

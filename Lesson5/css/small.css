@@ -1,0 +1,193 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+ footer{
+    background-color:rgb(101, 111, 167);
+    height: auto;
+    text-align: center; 
+    padding:0.75rem;
+    margin: 0 auto;
+    
+    
+}
+body{
+    background-color: lightgray;
+}
+
+header {
+background-color:rgb(101, 111, 167);
+display: flex;
+height: 10rem;
+padding: .5rem;
+align-items: center;
+justify-content: center;
+margin: 0 auto;
+}
+header div {
+    display:flex;
+}
+header section {
+    text-align: center;
+    margin:auto 0;
+    flex: 0.9;
+}
+.logo {
+    flex: .1;
+    margin:auto 0;
+    display:block;
+    height:2rem;
+}
+header h1, header h4 {
+    margin: 0;
+}
+
+.contentbox {
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed black;
+    padding: 15px;
+    color:black   
+}
+
+ 
+nav button{
+    margin: .2rem 2%;
+    background-color: transparent;
+    border: none;
+    /*font-size: 1.6 rem;*/
+    color: #fff;   
+    text-align: center;
+    width: 100%;
+}
+nav{
+    background-color: #36454f;
+    font-family: verdana,sans-serif;
+
+}
+nav ul{
+    list-style-type:none;
+    padding:0;
+    margin: 0;
+}
+
+nav ul li a{
+    display:block;
+    padding: .8rem 2%;
+    text-decoration:none;
+    color:rgba(255,255,255,0.8);
+    border-top:1px solid rgba(0,0,0,0.3);
+}
+nav ul li.active a{background-color: rgba(0,0,0,.2); color:#fff;}
+nav ul li a:hover { background-color:rgba(0,0,0,0.4);
+}
+nav ul.hide {
+    display: none;
+}
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  main {
+      max-width:820px;
+    margin:0 auto;}
+    
+  h1 {
+      text-align: center;
+      font-size:2.5rem;
+      text-shadow:3px 3px 5px #777;
+    }
+    h2{
+        text-align: center;
+    }
+    .Forecast{
+        position: relative;
+        border:3px solid black;
+        margin: 10px auto;
+        width:756.5px;
+        height:208px;
+        font-size: .8rem;
+    }
+    .Forecast1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;  
+        padding: 10px;
+        text-align: center;
+        background-color: darkgray;
+      }
+      #cloudy{
+         display:block;
+         margin: 0 auto;
+         width:37%;
+      }
+    .herodiv{
+        position: relative;
+        border:8px;
+        border-color: black;
+        margin: 10px auto;
+        width:756.5px;
+        height:308px;
+  
+    }
+
+  .hero-ph {
+      margin: 10px auto;
+    position: relative;
+    background-color: #eee;
+    border :1px solid #333;
+    width: 99.6%;
+    height:310px;
+  }
+
+  .weathersummary{
+      position: absolute;
+      top:50px;
+      left: 50px;
+      background: radial-gradient(rgb(202, 202, 240),rgb(224, 228, 230));
+      border: 1px solid blue;
+      padding: .5rem;
+      box-shadow: 0 0 30px #777;
+  }
+  #Preston1{
+    display: block;
+    width:30%; 
+    float: left;
+  }
+ 
+
+  .Article{
+    position: relative;
+    border:3px solid black;
+    margin: 10px auto;
+    width:756.5px;
+    height:278px;
+
+}
+  #Coronavirus{
+    width:27%;
+   float:right;
+  }
+  .Contact{
+    position: relative;
+    border:3px solid black;
+    margin: 10px auto;
+    width:756.5px;
+    height:208px;
+    font-size: .8rem;
+
+}
+
+
+ 
+
+
+
+
+
+
+
+

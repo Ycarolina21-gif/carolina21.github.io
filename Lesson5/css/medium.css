@@ -22,4 +22,32 @@ nav ul li a{
     border-right:1px solid rgba(0,0,0,0.3);
     padding:.8rem 1rem;
 }
+.herodiv {
+  grid-template-columns: 7.3rem 4rem;
+}
+
+.Forecast1{
+  display: grid;
+}
+
+#Coronavirus {
+  width:30%;
+}
+.Article{
+  height: 20rem;
+}
+.Contact {
+  flex-direction: row;
+  height: 16rem;
+}
+.Contact > div {
+  margin-right: .6rem;
+}
+#map {
+  display: block;
+  width:37%;
+}
+
+
  } /*end medium */
+

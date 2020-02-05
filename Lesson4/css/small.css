@@ -12,8 +12,10 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     
     
 }
-
-
+a{
+    color: white;
+            
+    }
 header {
 background-color:rgb(101, 111, 167);
 display: flex;

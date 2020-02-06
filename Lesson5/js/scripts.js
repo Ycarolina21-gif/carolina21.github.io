@@ -14,6 +14,3 @@ document.getElementById("day5").innerText = dayNames[(day + 5) % 7];
 if (day != 5) {
     document.getElementById("alert").style.display = "none";
 }
-else{
-    document.display="Today is pizza day";
-}

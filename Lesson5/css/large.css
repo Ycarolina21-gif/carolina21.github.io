@@ -11,6 +11,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36454f', end
 
     
     }
+    nav{
+        display:flex;
+        justify-content: center;
+    }
     nav button {display: none;}
     nav ul.hide{display:block;}
     nav ul{margin-left:2%;}
@@ -21,7 +25,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36454f', end
     nav ul li a{
         border:none;
         border-right:1px solid rgba(0,0,0,0.3);
-        padding:.6rem 1rem;
+        padding:.6rem 2rem .6rem 2rem;
+        align-items: center;
     }
    
     

@@ -35,10 +35,11 @@ nav ul li a{
 }
 .Article{
   height: 20rem;
+  height: auto;
 }
 .Contact {
   flex-direction: row;
-  height: 16rem;
+  height: auto;
 }
 .Contact > div {
   margin-right: .6rem;

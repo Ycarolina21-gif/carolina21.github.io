@@ -126,11 +126,13 @@ nav ul.hide {
           grid-column-start:span 5;
           justify-content: center;
       }
-      #cloudy #cloudy1 #cloudy2 #sun #rain  {
+      #cloudy, #cloudy1, #cloudy2, #sun, #rain  {
          display:block;
          margin: 0 auto;
          width:37%;
       }
+    
+
     #herodiv{
         position: relative;
         

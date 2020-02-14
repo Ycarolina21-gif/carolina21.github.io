@@ -87,7 +87,7 @@ nav ul li a{
     border-top:1px solid rgba(0,0,0,0.3);
 }
 nav ul li.active a{background-color: rgba(0,0,0,.2); color:#fff;}
-nav ul li a:hover { background-color:rgba(0, 0, 0, 0.178);
+nav ul li a:hover { background-color:rgba(73, 71, 71, 0.178);
 }
 nav ul.hide {
     display: none;

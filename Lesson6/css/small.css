@@ -87,7 +87,7 @@ nav ul li a{
     border-top:1px solid rgba(0,0,0,0.3);
 }
 nav ul li.active a{background-color: rgba(0,0,0,.2); color:#fff;}
-nav ul li a:hover { background-color:rgba(73, 71, 71, 0.178);
+nav ul li a:hover { background-color:rgba(55, 42, 71, 0.575);
 }
 nav ul.hide {
     display: none;
@@ -142,10 +142,10 @@ nav ul.hide {
     position: absolute;
     background-color: #eee;
     border :1px solid #333;
-    top:.5rem;
+    top:.2rem;
     left:.5rem;
     justify-content: center;
-    padding: .5rem;
+    padding: .2rem;
     
   }
   #herodiv p {
@@ -154,10 +154,11 @@ nav ul.hide {
 
 }
 #preston1{
-    display:block;
-    width:99.8%;
-    float: left;
+    display:block; 
+    width: 99%;
+    margin: 0;
 }
+
   .weathersummary{
       position: absolute;
       top:60px;
@@ -172,13 +173,14 @@ nav ul.hide {
   .Article{
     position: relative;
     border:3px solid black;
-    margin: 10px auto;
+    margin: 15px auto;
     height:auto;
     padding:0.75rem;
+    
 
 }
   #Coronavirus{
-    width:57%;
+    width:29%;
    float:right;
   }
   .Contact{

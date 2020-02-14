@@ -153,10 +153,12 @@ nav ul.hide {
     font-size: .8rem;
 
 }
-#preston1{
-    display:block; 
-    width: 99%;
+
+picture.photoA{
+    display:block;
+    width:95%;
     margin: 0;
+
 }
 
   .weathersummary{

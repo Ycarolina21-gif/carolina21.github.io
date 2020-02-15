@@ -160,6 +160,17 @@ picture.photoA{
     margin: 0;
 
 }
+main figure.myphoto{
+    width:30%;
+    margin:0 0 0 2%;
+    float:right;
+   
+
+}
+main figure.myphoto img{
+    width:100%;
+
+}
 
   .weathersummary{
       position: absolute;
@@ -175,16 +186,13 @@ picture.photoA{
   .Article{
     position: relative;
     border:3px solid black;
-    margin: 15px auto;
+    margin: 10px auto;
     height:auto;
     padding:0.75rem;
     
 
 }
-  #Coronavirus{
-    width:29%;
-   float:right;
-  }
+  
   .Contact{
     position: relative;
     border:3px solid black;

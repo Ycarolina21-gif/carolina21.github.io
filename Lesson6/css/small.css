@@ -166,13 +166,12 @@ float:right;
 width:40%;
 margin:0 2%;
 }
-
 main picture.photoA div, main picture.photoB div{
     text-align:center;
     
 
 }
-main figure.photoA img, main picture.photoB img, main picture.photoC img{
+main figure.photoA img, main picture.photoB img{
     width:100%;
 
 }
@@ -207,7 +206,13 @@ main figure.photoA img, main picture.photoB img, main picture.photoC img{
     padding:0.75rem;
 
 }
-
+#map{
+    float:right;
+    width:55%;
+    margin-bottom: 5px;
+    display:none;
+    
+}
 
 
  

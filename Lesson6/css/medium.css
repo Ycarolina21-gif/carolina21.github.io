@@ -45,16 +45,9 @@ nav ul li a{
 .Contact > div {
   margin-right: .6rem;
 }
-picture.photoC{
-  display:absolute;
-  float:right;
-  width:36%;
-  margin:0 2%;
-  
-  }
-  main picture.photoC img{
-    width:100%;
-
+#map {
+  display: block;
+  width:37%;
 }
 
 

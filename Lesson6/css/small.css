@@ -160,14 +160,18 @@ picture.photoA{
     margin: 0;
 
 }
-main figure.myphoto{
-    width:30%;
-    margin:0 0 0 2%;
-    float:right;
-   
+picture.photoB{
+display:block;
+float:right;
+width:40%;
+margin:0 2%;
+}
+main picture.photoA div, main picture.photoB div{
+    text-align:center;
+    
 
 }
-main figure.myphoto img{
+main figure.photoA img, main picture.photoB img{
     width:100%;
 
 }

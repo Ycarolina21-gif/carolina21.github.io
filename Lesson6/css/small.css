@@ -14,6 +14,14 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 color: white;
         
 }
+#alert{
+    background-color: cornflowerblue;
+    height:auto;
+    text-size-adjust: 2px;
+    font-weight: bold;
+    
+
+}
 body{
     background-color: lightgray;
 }
@@ -86,8 +94,8 @@ nav ul li a{
     color:rgba(255,255,255,0.8);
     border-top:1px solid rgba(0,0,0,0.3);
 }
-nav ul li.active a{background-color: rgba(0,0,0,.2); color:#fff;}
-nav ul li a:hover { background-color:rgba(55, 42, 71, 0.575);
+nav ul li.active a{background-color: rgba(0, 0, 0, 0.377); color:#fff;}
+nav ul li a:hover { background-color:rgba(8, 5, 10, 0.932);
 }
 nav ul.hide {
     display: none;

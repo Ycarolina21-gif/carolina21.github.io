@@ -145,13 +145,15 @@ nav ul.hide {
         position: relative;
         
     }
-
+section{
+    display: block;
+}
   .hero-ph {
     position: absolute;
     background-color: #eee;
     border :1px solid #333;
     top:.2rem;
-    left:.5rem;
+    left:3rem;
     justify-content: center;
     padding: .2rem;
     
@@ -164,8 +166,8 @@ nav ul.hide {
 
 picture.photoA{
     display:block;
-    width:95%;
-    margin: 0;
+    width:96%;
+    margin: 0 2%;
 
 }
 picture.photoB{
@@ -179,7 +181,7 @@ main picture.photoA div, main picture.photoB div{
     
 
 }
-main figure.photoA img, main picture.photoB img{
+main picture.photoA img, main picture.photoB img{
     width:100%;
 
 }

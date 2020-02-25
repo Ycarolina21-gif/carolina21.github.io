@@ -23,6 +23,9 @@ body{
 h1{
  text-align: center;
 }
+figcaption{
+    text-align: center;
+}
 div {
 display:grid;
 grid-template-columns:  1fr;

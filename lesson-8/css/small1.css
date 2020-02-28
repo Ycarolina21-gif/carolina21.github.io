@@ -30,14 +30,14 @@ table,caption, th, td {
 #mark, #color3{
     background-color: #628ca6;
 }
-caption, tfoot{
+caption{
 background-color: #7fb9c2;
 }
 #color3{
     color:white;
 }
 
-tfoot{
+tfoot tr td {
     font-size: .7rem;
     background-color:#7fb9c2;
 }

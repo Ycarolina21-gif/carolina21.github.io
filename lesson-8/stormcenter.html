@@ -51,22 +51,37 @@
             <li><a href="#">Soda Spring</a></li>
             <li><a href="#">Contact</a></li>    
             <li><a href="#"> Fish Heaven</a></li>
-            <li><a href="#">Storm Center</a></li>
-            <li class="active"><a href="#">Gallery</a></li >
+            <li class="active"><a href="#">Storm Center</a></li>
+            <li ><a href="#">Gallery</a></li >
         </ul>
     </nav>
     
     
 <!-- CONTENT HERE -->
     <main>
-        <h1 >Gallery</h1>
+        <h1 >Storm Center</h1>
         <div class="herodiv" >
             <label for="name">Full name:</label>
           <input type="text" id="name" name="name" required
-       minlength="5" size="10">
-            
-              
-                
+       minlength="5" size="20">
+       <label for="email">Enter your email: </label>
+    <input type="email" name="email" id="email" required>
+        <label for="phone-number" >Phone number:</label>
+       <input type="tel" id="phone-number" name="phone-number" required> 
+       <label for="zipcode" >Zip Code:</label>
+       <input type="number" id="zipcode" name="zipcode" required>
+       <label for="stormeDate" >Storm date:</label>
+       <input type="date" id="stormDate" name="stormDate" >
+       <label for="Storm-type" >Storm type:</label>
+       <input type="list" id="Storm-type" name="Storm-type">
+       <label for="Storm-severity" >Storm-severity:</label>
+       <input type="range(1 to 10)" id="Storm-severity" name="Storm-severity" >
+       <label for="Storm-region" >Storm region:</label>
+       <input type="number" id="zipcode" name="zipcode" required>
+       
+       <div class="form">
+        <input type="submit" value="Subscribe!">              
+        </div>
         </div>
     </main>
     

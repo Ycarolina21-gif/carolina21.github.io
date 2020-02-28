@@ -4,21 +4,23 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
  
-caption{
+body{
     font-family: Ubuntu, sans-serif;
-    font-weight: bold;
+    
 
 }
 table{
-    
-        margin: 10px auto;
-        border: 1px solid lightgrey;
-        border-collapse: collapse;
-        font-family: Ubuntu, sans-serif;
-        box-shadow: 10px 10px 15px #628ca6;
+    margin: 10px auto;
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+    box-shadow: 10px 10px 15px #628ca6;
 }
 
-
+table,caption, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: Ubuntu, sans-serif;
+  }
   th, td {
     padding: 5px;
     text-align: center;
@@ -34,19 +36,24 @@ table{
 #mark, #color3{
     background-color: #628ca6;
 }
-thead {
-font-size:25px;
-Text-align:center;
-padding: 15px;
-}
-#head{
-    background-color: #7fb9c2;
+caption, tfoot{
+background-color: #7fb9c2;
 }
 #color3{
     color:white;
 }
-
-tfoot tr td {
-    font-size: .7rem;
+#color1{
     background-color:#7fb9c2;
 }
+
+tfoot{
+    font-size: .7rem;
+  
+}
+#head{
+    background-color: #7fb9c2;
+}
+
+
+
+

@@ -175,14 +175,25 @@ label {
 	display: flex;
 	align-items: center;
 }
-fieldset {
-	background-color: #eee;
-    border: 1px solid #ccc;
-    align-items: center;
-    padding: .5rem 2%;
-}
 
-  
+.thankyou{
+    font-size: 40px;
+    text-align: center;
+}
+  .selection{
+        display: block;
+        background-color: #eee;
+        border: 1px solid #ccc;
+        align-items: center;
+        padding: .5rem 2%;
+        border-radius: 4px;
+        
+        font-size: 0.9rem;
+        padding: 0.6rem;
+    }
+  textarea1{
+      display:block;
+  }
  
 
 

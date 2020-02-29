@@ -65,7 +65,7 @@
             <fieldset>
                 <legend>Personal Information </legend>
             <label>Full name:</label>
-            <input type="text"  name="input1" required pattern="[A-Za-z]">
+            <input type="text"  name="input1" required >
        <label >Enter your email: </label>
     <input type="email" name="email" id="email" placeholder="user@email.com" required>
 
@@ -120,21 +120,22 @@
        <fieldset>
         <legend>Danger level</legend>
         <p>Are you in danger?</p>
-        <div class="selection">
+        <div class="selectionA">
             <label ><input type="radio" id="yes" name="option" value="yes" > Yes</label>
         </div>
-        <div class="selection">
+        <div class="selectionA">
             <label ><input type="radio" id="maybe" name="option" value="maybe"> Maybe</label>
         </div>
-        <div class="selection">
+        <div class="selectionA">
             <label ><input type="radio" id="no" name="option" value="no">
             No</label>
         </div>
         
     </fieldset>
     <fieldset>
+                   
         <legend>Additional Information</legend>
-        <label class="txtarea"><textarea name="comments" rows="10" cols="50" placeholder="Additional Comments"></textarea></label>
+        <label class="selectionB"><textarea name="comments" rows="5" cols="50" placeholder="Additional Comments"></textarea></label>
     </fieldset>
    
     <div class="buttons">

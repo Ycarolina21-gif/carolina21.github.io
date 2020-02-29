@@ -167,13 +167,20 @@ input,
 label {
     margin: .4rem 0;
 }
-.herodiv{
-    padding-left: 13rem;
-}
+
 #Storm-severity{
     color:black;
 }
-
+.flexly {
+	display: flex;
+	align-items: center;
+}
+fieldset {
+	background-color: #eee;
+    border: 1px solid #ccc;
+    align-items: center;
+    padding: .5rem 2%;
+}
 
   
  

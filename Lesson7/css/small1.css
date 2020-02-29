@@ -131,7 +131,9 @@ nav ul.hide {
     .herodiv {
     display:grid;
     grid-template-columns: 1fr;
-    grid-row-gap:15px;
+    justify-content:center;
+    margin: auto;
+    width:97%;
     text-align:center;
     
     }

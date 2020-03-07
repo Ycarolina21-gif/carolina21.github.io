@@ -28,9 +28,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36454f', end
         padding:.6rem 2rem .6rem 2rem;
         align-items: center;
     }
+    main picture {
+        display: block;
+    }
+
+    main picture img {
+        width: 100%;
+        height: auto;
+        border: 1px solid #bbb;
+    }
+
    
+
+    .townsection {
+        display: block;
+    }
+   
+    .townsection div {
+        height: 250px;
+    }
     main  div.cards {
-        justify-content:center;
+        
         display:grid;
         grid-template-columns: 1fr 1fr 1fr;
      

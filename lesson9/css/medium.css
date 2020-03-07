@@ -45,20 +45,36 @@ nav ul li a{
 .Contact > div {
   margin-right: .6rem;
 }
-#map {
-  display: block;
-  width:37%;
+
+h2 {text-align:center;}
+
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
 }
-main div.cards {
-  display:grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content:center;
+.townsection:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.townsection {
+  display: flex;
+  width: 95%;
   margin: auto;
-  width:97%;
-  text-align:center;
-
-
+  padding: 5px 5px;
+  margin-bottom: 20px;
 }
+
+
+
+.townsection div {
+  margin: auto;
+}
+
+.townphoto {
+  width: 50%;
+}
+
 
 
 

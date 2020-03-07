@@ -51,7 +51,7 @@ nav ul li a{
 }
 main div.cards {
   display:grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   justify-content:center;
   margin: auto;
   width:97%;
@@ -59,6 +59,7 @@ main div.cards {
 
 
 }
+
 
 
  } /*end medium */

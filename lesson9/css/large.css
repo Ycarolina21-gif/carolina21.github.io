@@ -29,5 +29,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36454f', end
         align-items: center;
     }
    
+    main  div.cards {
+        justify-content:center;
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+     
+    
     
 } /*end large */
+}

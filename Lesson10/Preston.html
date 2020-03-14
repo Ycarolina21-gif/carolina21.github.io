@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="author" content="John Doe">
+
+<!-- This start file was build by Paul Cheney  -->
+<title>Weathercom.org</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link href="favicon.ico" rel="shortcut icon" >
+
+
+<!-- STYLE SHEETS -->
+<link href="css/normalize.css" rel="stylesheet">
+<!-- phone-default -->
+<link href="css/small.css" rel="stylesheet">
+<!-- enhance-tablet -->
+<link href="css/medium.css" rel="stylesheet">
+<!-- enhance-desktop -->
+<link href="css/large.css" rel="stylesheet">
+
+
+     
+</head>
+<body>
+    <div id="alert">Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavillion.</div>
+<!-- HEADER HERE -->
+	<header>
+        <div>
+      <img  src="images/Logo.png" alt="Logo">
+      <section>
+      <h1> Weathercom</h1>
+           <h4>The best weather channel</h4>   
+      </section> 
+        </div>  
+        
+        
+    </header>
+    
+    
+<!-- NAVIGATION HERE -->
+<nav class="clearfix">
+    <button onclick="toggleMenu()"> &#9776;</button>
+    <ul id="primaryNav" class="hide">
+        <li><a href="/Lesson9/index.html">Home</a></li>
+        <li ><a href="/Lesson10/Preston.html">Preston</a></li>
+        <li><a href="#">Soda Spring</a></li>
+        <li><a href="#">Contact</a></li>    
+        <li><a href="#"> Fish Heaven</a></li>
+        <li class="active"><a href="/lesson-8/stormcenter.html">Storm Center</a></li>
+        <li ><a href="/Lesson7/gallery-7.html">Gallery</a></li >
+    </ul>
+</nav>
+   
+    
+    
+<!-- CONTENT HERE -->
+    <main>
+        <h1 >Preston Idaho</h1>
+        <section id="herodiv">
+            <picture class="photoA">
+                <source srcset="images/cit230_Small.jpg" media="(max-width: 400px)">
+                <source srcset="images/cit230_Medium.jpg" media="(max-width: 800px)">
+                <source srcset="images/cit230_Large.jpg" media="(max-width: 1200px)">
+            <img id="preston1" src="images/cit230_LargeA.jpg" alt="Logo">  
+            </picture>
+        <div class="hero-ph">
+
+                <h3>Weather summary</h3>
+                <p>Temperature: <span id="currentTemp"> </span>&deg;</p>
+                <p>High: <span id="Temp"></span></p>
+                <p>Wind chill:<span id="windChill"></span></p>
+                <p>Humidity:  <span id="humidity">%</span></p>
+                <p>Wind Speed:   <span id= "windSpeed"> </span>mph</p>
+               
+            </div>
+            </section>
+
+          
+            <div class= "Forecast1"> 
+                <h2>5 day Forecast</h2>      
+                <div class="weather"id="day1"> <h3>Day 1</h3> 
+                </div>
+                <div class="weather"id="day2"><h3>Day2</h3>
+                </div>
+                <div  class="weather"id="day3"><h3>Day 3</h3> 
+            </div>
+                <div  class="weather"id="day4"><h3>Day 4</h3>
+                </div>
+                <div  class="weather"id="day5"><h3>Day 5 </h3>
+                </div>
+                <div class="Temp"><img id="icon1" ><span id="temp1"></span>&deg;</div>
+                <div class="Temp"><img id="icon2" ><span id="temp2"></span>&deg;</div>
+                <div class="Temp"><img id="icon3" ><span id="temp3"></span>&deg;</div>
+                <div class="Temp"><img id="icon4" ><span id="temp4"></span>&deg;</div>
+                <div class="Temp"><img id="icon5" ><span id="temp5"></span>&deg;</div>
+               
+            
+
+        </div>
+        <div class= "Article"> 
+            
+            <h3>China could spend billions buying stocks if the 
+                coronavirus panic continues.</h3>
+                <p>Analysis by Laura He</p>
+                <picture class="photoB">
+                    <source media="(max-width:400px)" srcset="images/sh-small.jpg">
+                    <source media="(max-width:1000px)" srcset="images/sh-medium.jpg">
+                        <source media="(max-width:1600px)" srcset="images/sh-large.jpg">
+                <img src="images/sh.jpg" alt="China">  
+                </picture>
+             <p>Hong Kong (CNN Business)Monday's market sell-off in China was the worst in many years and wiped
+                  nearly half a trillion dollars off the value of the country's biggest companies.
+                   Now the Chinese government has to find ways to stem the panic before the coronavirus 
+                   epidemic makes things even worse.</p>
+
+                <p> Beijing already has a blueprint to work with. 
+                When the Chinese stock market bubble popped in 2015, sending shares into an even deeper tailspin, 
+                the government stepped in with a rescue plan. Using a state-owned financing company and its sovereign 
+                wealth fund, China spent more than 1.2 trillion yuan ($170 billion) buying shares to shore up prices.</p>   
+                
+        </div>
+        <div class ="Contact"> 
+            <img id="map" src="images/map.jpg" alt="gps">
+            <h3>Contact information</h3>
+            <p>30 N 1st E</p>
+            <p>Preston, ID 83263</p>
+            <p><img src="images/phone-call.png" alt="call"> 999-999-999</p>
+            <p><img src="images/envelope.png" alt="mail"> dwaynedjohnson@weatherrock.com</p>
+           <p> <img src="images/facebook.png" alt="facebook">
+            <img src="images/instagram.png" alt= "instagram">
+            <img src="images/twitter.png" alt="twitter"></p>
+            </div>
+    </main>
+    
+<!-- FOOTER HERE -->   
+<footer>   
+    @2019 Hampton|Virginia|<a href="byui.edu">BYUI Online Learning</a> <br>
+     Last Updated: <script>document.write(document.lastModified);
+        </script>        
+</footer>
+<script src="js/WindC.js"></script>  
+<script src="js/scripts.js"></script>
+<script src="js/weatherapi2.js"></script>
+<script src="js/forecast.js"></script>
+</body>
+</html>

@@ -29,10 +29,20 @@ nav ul li a{
 
 .Forecast1{
   display: grid;
-  justify-content: center;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  max-width: 500px;
+  margin: auto;
+  margin-top: 1rem;
   text-align: center;
+  
+  
 }
+.Forecast1 img {
+  display: block;
+  max-width: 60%;
+  margin: auto;
+}
+
 
 #Coronavirus {
   width:30%;
@@ -53,7 +63,12 @@ nav ul li a{
   width:37%;
 }
 .temp {
-text-align: center;
+margin: 0;
+align-content: center;
+align-items: center;
+}
+div{
+  display:block;
 }
 
 

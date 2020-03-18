@@ -19,13 +19,13 @@ var one = 1;
 const fivedayforecast =jsObject1.list.filter(x => x.dt_txt.includes('18:00:00'));
 console.log(fivedayforecast);
 for ( let i=0; i<fivedayforecast.length; i++) {
-   
+    document.getElementById(`temp${i+1}`).textContent= fivedayforecast[i].main.temp;
         var imagesrc = 'https://openweathermap.org/img/w/' + jsObject1.list[i].weather[0].icon + '.png';
         var desc = jsObject1.list[i].weather[0].description;
         
         document.getElementById('icon' + one).setAttribute('src', imagesrc);
         document.getElementById('icon' + one).setAttribute('alt', desc);
-        document.getElementById(`temp${i+1}`).textContent= fivedayforecast[i].main.temp;
+       
         one=one+1;
         
     

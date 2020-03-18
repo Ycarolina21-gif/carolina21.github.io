@@ -1,8 +1,7 @@
 const forecastApiURL = "https://api.openweathermap.org/data/2.5/forecast?id=5604473&cnt=40&units=imperial&appid=3014d71ceff446035940314c162afafa"
 fetch(forecastApiURL)
   .then((response) => response.json())
-  .then((forecastData) => {
-    console.log(forecastData); 
+  .then((jsObject1) => {    
     var day1 = new Date();
     var day = day1.getDay();
     var daylist = ["Sun", "Mon", "Tues", "Wed", "Thur", "Fri", "Sat"];
@@ -17,16 +16,17 @@ for (i=1; i<6; i++) {
 }
 var one = 1;
 for (i=0; i<35; i++) {
-    if (forecastData.list[i].dt_txt.includes("18:00:00")) {
-        var imagesrc = 'https://openweathermap.org/img/w/' + forecastData.list[i].weather[0].icon + '.png';
-        var desc = forecastData.list[i].weather[0].description;
+    if (jsObject1.list[i].dt_txt.includes("18:00:00")) {
+        var imagesrc = 'https://openweathermap.org/img/w/' + jsObject1.list[i].weather[0].icon + '.png';
+        var desc = jsObject1.list[i].weather[0].description;
         
         document.getElementById('icon' + one).setAttribute('src', imagesrc);
         document.getElementById('icon' + one).setAttribute('alt', desc);
 
-        document.getElementById('temp' + one).textContent = Math.round(forecastData.list[i].main.temp); 
-        one=one+1;}
-       
+        document.getElementById('temp' + one).textContent = Math.round(jsObject1.list[i].main.temp); 
+        one=one+1;
+    }
+        
 }
 
 });

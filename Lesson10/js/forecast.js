@@ -15,18 +15,17 @@ for (i=1; i<6; i++) {
     }
     document.getElementById('day' + i).textContent = daylist[forecastDay];
 }
-var one = 1;
+
 const fivedayforecast =jsObject1.list.filter(x => x.dt_txt.includes('18:00:00'));
 console.log(fivedayforecast);
 for ( let i=0; i<fivedayforecast.length; i++) {
-    document.getElementById(`temp${i+1}`).textContent= fivedayforecast[i].main.temp;
+    document.getElementById(`temp${i+1}`).textContent= Math.round(fivedayforecast[i].main.temp);
         var imagesrc = 'https://openweathermap.org/img/w/' + jsObject1.list[i].weather[0].icon + '.png';
         var desc = jsObject1.list[i].weather[0].description;
         
-        document.getElementById('icon' + one).setAttribute('src', imagesrc);
-        document.getElementById('icon' + one).setAttribute('alt', desc);
-       
-        one=one+1;
+        document.getElementById(`icon${i+1}`).setAttribute('src', imagesrc);
+        document.getElementById(`icon${i+1}`).setAttribute('alt', desc);
+   
         
     
         

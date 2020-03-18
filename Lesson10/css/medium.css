@@ -30,19 +30,21 @@ nav ul li a{
 .Forecast1{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  max-width: 500px;
   margin: auto;
-  margin-top: 1rem;
+  max-width: 700px;
   text-align: center;
-  
-  
+   
 }
+
 .Forecast1 img {
   display: block;
   max-width: 60%;
   margin: auto;
 }
-
+.weather{
+  border:1px solid black; 
+  background-color: rgb(37, 105, 105);
+}
 
 #Coronavirus {
   width:30%;
@@ -62,13 +64,20 @@ nav ul li a{
   display: block;
   width:37%;
 }
-.temp {
+.Temp {
 margin: 0;
 align-content: center;
 align-items: center;
+border:1px solid black; 
 }
 div{
   display:block;
+}
+div.Forecast1{
+  border:1px solid black; 
+}
+.Temp{
+  background-color: rgb(86, 96, 102);
 }
 
 

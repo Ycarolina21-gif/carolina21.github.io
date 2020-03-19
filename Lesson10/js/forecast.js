@@ -19,15 +19,15 @@ for (i=1; i<6; i++) {
 const fivedayforecast =jsObject1.list.filter(x => x.dt_txt.includes('18:00:00'));
 console.log(fivedayforecast);
 for ( let i=0; i<fivedayforecast.length; i++) {
-    document.getElementById(`temp${i+1}`).textContent= Math.round(fivedayforecast[i].main.temp);
+    var one=1
         var imagesrc = 'https://openweathermap.org/img/w/' + jsObject1.list[i].weather[0].icon + '.png';
         var desc = jsObject1.list[i].weather[0].description;
-        
+        document.getElementById(`temp${i+1}`).textContent= Math.round(fivedayforecast[i].main.temp);
         document.getElementById(`icon${i+1}`).setAttribute('src', imagesrc);
         document.getElementById(`icon${i+1}`).setAttribute('alt', desc);
-   
+  
         
-    
+
         
 }
 

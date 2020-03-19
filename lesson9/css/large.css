@@ -38,7 +38,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36454f', end
         border: 1px solid #bbb;
     }
 
-   
+    section  img{
+        max-width:120%;
+        border:none;
+        align-items: center;
+    }
 
     .townsection {
         display: block;

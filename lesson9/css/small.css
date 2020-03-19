@@ -23,6 +23,10 @@ color: white;
 body{
     background-color: lightgray;
 }
+p{
+    font-style: oblique;
+    font-size: 1.5rem;
+}
 
 header {
      background-color:rgb(101, 111, 167);
@@ -143,9 +147,8 @@ section{
     display: block;
 }
   .hero-ph {
-    position: absolute;
-    background-color: #eee;
-    border :1px solid #333;
+    
+    background-color: #eee; 
     top:.2rem;
     left:3rem;
     justify-content: center;
@@ -174,6 +177,9 @@ section{
     }
    p{
        font-size: 1rem;
+   }
+   #Idaho{
+    max-width:100%;
    }
   section  img{
         max-width:70%;
@@ -209,7 +215,5 @@ section{
 
 
 
-
-
-
+      
 

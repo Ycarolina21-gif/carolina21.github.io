@@ -28,6 +28,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36454f', end
         padding:.6rem 2rem .6rem 2rem;
         align-items: center;
     }
-   
+    .hero-ph {
+       
+        font-size:1rem ;
+      }
+      #herodiv p {
+        margin: 0;
+      
+        font-weight: bold;
+    
+    }
     
 } /*end large */

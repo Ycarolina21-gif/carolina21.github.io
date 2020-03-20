@@ -123,7 +123,7 @@ nav ul.hide {
         justify-content: center;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         text-align: center;
-        background-color: rgb(75, 86, 92);
+        background-color: #888888;;
         
         margin: 0 auto;
        
@@ -148,18 +148,28 @@ section{
     display: block;
 }
   .hero-ph {
+      background-color:#A59B96;
     position: absolute;
-    background-color: rgb(123, 165, 214);
-    border :1px solid #333;
+    background-color: none;
     top:.2rem;
-    left:3rem;
+    left:2rem;
     justify-content: center;
     padding: .2rem;
+    text-align: center;
+    font-size:1rem ;
+    border : 1px solid #311E16 ;
     
+  }
+    .herito{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    color:black;
+
   }
   #herodiv p {
     margin: 0;
     font-size: .8rem;
+    font-weight: bold;
 
 }
 
@@ -199,7 +209,7 @@ main picture.photoA img, main picture.photoB img{
   .Article{
     position: relative;
     border:1.5px solid black;
-    background-color: rgb(119, 140, 151);
+    background-color: #8b98a9;
     margin: 10px auto;
     height:auto;
     padding:0.75rem;
@@ -214,7 +224,7 @@ main picture.photoA img, main picture.photoB img{
     height: auto;
     font-size: .8rem;
     padding:0.75rem;
-    background-color: rgb(119, 140, 151);
+    background-color: #8b98a9;
 }
 #map{
     float:right;
@@ -226,15 +236,15 @@ main picture.photoA img, main picture.photoB img{
 
 
  #Events{
-     background-color:rgb(88, 144, 173) ;
+     background-color:#818081 ;
      width: 50%;
      height: 50%;
-     
-     margin: 0 auto;
+     margin: 10px auto;
      position: relative;
      text-align: center;
      border:1.5px solid black;
      padding-top: .5rem;
+     box-shadow: 2px 5px #888888;
      
  }
  

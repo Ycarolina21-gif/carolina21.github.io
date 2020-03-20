@@ -36,7 +36,18 @@ nav ul li a{
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   margin: auto;
   text-align: center;
+
    
+}
+.hero-ph {
+ 
+  font-size:1.2rem ;
+}
+#herodiv p {
+  margin: 0;
+  font-size: .8rem;
+  font-weight: bold;
+
 }
 
 .Forecast1 img {
@@ -46,7 +57,7 @@ nav ul li a{
 }
 .weather{
   border:1px solid black; 
-  background-color: rgb(119, 140, 151);
+  background-color: #8b98a9;
 }
 
 #Coronavirus {

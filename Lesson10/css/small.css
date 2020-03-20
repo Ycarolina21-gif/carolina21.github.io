@@ -225,8 +225,19 @@ main picture.photoA img, main picture.photoB img{
 }
 
 
+ #Events{
+     background-color:rgb(88, 144, 173) ;
+     width: 50%;
+     height: 50%;
+     
+     margin: 0 auto;
+     position: relative;
+     text-align: center;
+     border:1.5px solid black;
+     padding-top: .5rem;
+     
+ }
  
-
 
 
 

@@ -15,7 +15,7 @@ color: white;
         
 }
 #alert{
-    background-color: cornflowerblue;
+    background-color:#C7CADF;
     height:auto;
     font-weight: bold;
 
@@ -164,12 +164,7 @@ section{
     margin:0 auto;
     color:black;
   }
-  h1 {
-      text-align: center;
-      font-size:2rem;
-      text-shadow:3px 3px 5px #777;
-      
-    }
+ 
     h2 {
         font-size: 2rem;
         color:rgb(54, 38, 141);
@@ -186,7 +181,9 @@ section{
         border:none;
         align-items: center;
     }
-
+.townphoto{
+    border-radius: 5px;
+}
     img[data-src] {
         filter: blur(0.2em);
       }

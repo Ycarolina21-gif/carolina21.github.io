@@ -9,6 +9,18 @@ fetch(apiURL)
     document.getElementById('windSpeed').textContent = Math.round(jsObject.wind.speed);
    currentTemp.textContent =jsObject.main.temp;
 
+   let temperature = jsObject.main.temp;
+   let Wind = jsObject.wind.speed;
   
+   if(temperature<=50 && Wind >3){
+   let windChill  =35.74 + 0.6215*temperature-35.75*Math.pow(Wind,0.16)+0.4275*temperature*Math.pow(Wind,0.16);
+   document.getElementById('windChill').innerHTML = Math.round(windChill*10)/10;
+
+  }
+   else{
+       const windChill =('N/A');
+       document.getElementById('windChill').innerHTML = windChill;
+   }
+   
 
   });

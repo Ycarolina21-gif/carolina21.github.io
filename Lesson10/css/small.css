@@ -15,9 +15,10 @@ color: white;
         
 }
 #alert{
-    background-color: cornflowerblue;
+    background-color:#C7CADF;
     height:auto;
     font-weight: bold;
+   
     
 
 }
@@ -62,13 +63,14 @@ header h1, header h4 {
 
  
 nav button{
-    margin: .2rem 2%;
+    
     background-color: transparent;
     border: none;
     /*font-size: 1.6 rem;*/
     color: #fff;   
     text-align: center;
     width: 100%;
+    padding:0.5rem;
 }
 nav{
     padding:0;
@@ -85,14 +87,22 @@ nav ul{
     margin: 0;
 }
 
+
 nav ul li a{
     display:block;
-    padding: .8rem 2%;
+    padding: .5rem;
     text-decoration:none;
     text-align: center;
     color:rgba(255,255,255,0.8);
     border-top:1px solid rgba(0,0,0,0.3);
 }
+
+nav ul li {
+    padding: 0;
+    list-style: none;
+    display: none;
+}
+
 nav ul li.active a{background-color: rgba(0, 0, 0, 0.377); color:#fff;}
 nav ul li a:hover { background-color:rgba(8, 5, 10, 0.932);
 }

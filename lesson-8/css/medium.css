@@ -11,17 +11,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#36454f', end
 
 }
 nav button {display: none;}
-nav ul.hide{display:block;}
-nav ul{margin-left:2%;}
+nav ul.hide {display: flex;justify-content: space-evenly;}
+nav ul {justify-content: space-evenly;}
 
-nav ul li {
-float:left;
+nav ul il {
+  flex: 1 1 90%;
 }
-nav ul li a{
-    border:none;
-    border-right:1px solid rgba(0,0,0,0.3);
-    padding:.8rem .25rem .8rem .25rem;
-    align-items: center;
+
+nav ul li a {
+  border: none;
+  padding: .6rem .6rem .6rem .6rem;
 }
 .herodiv {
   grid-template-columns: 7.3rem 4rem;
@@ -29,6 +28,32 @@ nav ul li a{
 
 .Forecast1{
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin: auto;
+  text-align: center;
+
+   
+}
+.hero-ph {
+ 
+  font-size:1.2rem ;
+}
+#herodiv p {
+  margin: 0;
+  font-size: .8rem;
+  font-weight: bold;
+
+}
+
+.Forecast1 img {
+  display: block;
+  max-width: 60%;
+  margin: auto;
+}
+.weather{
+  border:1px solid black; 
+  background-color: #68A1B7;
+  color:black;
 }
 
 #Coronavirus {
@@ -48,6 +73,21 @@ nav ul li a{
 #map {
   display: block;
   width:37%;
+}
+.Temp {
+margin: 0;
+align-content: center;
+align-items: center;
+border:1px solid black; 
+}
+div{
+  display:block;
+}
+div.Forecast1{
+  border:1px solid black; 
+}
+.Temp{
+  background-color:#445661;
 }
 
 

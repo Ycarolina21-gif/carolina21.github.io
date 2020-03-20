@@ -112,7 +112,7 @@ nav ul.hide {
   }
   main {
       max-width:820px;
-    margin:0 auto;}
+    margin: auto;}
    
   h1 {
       text-align: center;
@@ -142,7 +142,6 @@ nav ul.hide {
           
       }
     
-    
 
     #herodiv{
         position: relative;
@@ -164,6 +163,37 @@ section{
     border : 1px solid #311E16 ;
     
   }
+  label, input {
+    margin-bottom: 10px;
+}
+
+  form fieldset {
+    width:100%;
+    max-width: 30rem;;
+    display: table;
+    margin:auto;
+     padding:.75rem;  
+}
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+input,
+label {
+    margin: .4rem 0;
+    padding-right: 10px;
+}
+form label {
+    margin: 0 1rem 0 0;
+}
+.buttons{
+    width:100%;
+    max-width: 30rem;;
+    display: table;
+    margin:auto;
+     padding:.75rem; 
+}
+
     .herito{
     display:grid;
     grid-template-columns: 1fr 1fr;

@@ -30,4 +30,4 @@ fetch(requestURL)
 
   }}}); 
  ;
- towns[i].name == "Fish Haven" || towns[i].name == "Preston" ||  towns[i].name== "Soda Springs"
+ 

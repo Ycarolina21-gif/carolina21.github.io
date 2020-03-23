@@ -153,7 +153,6 @@ section{
   .hero-ph {
       background-color:#A59B96;
     position: absolute;
-    background-color: none;
     top:.2rem;
     left:2rem;
     justify-content: center;

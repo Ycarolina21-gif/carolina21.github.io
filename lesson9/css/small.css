@@ -212,7 +212,23 @@ section{
         background-color: rgb(137, 140, 177);
     }
 
-
+    .Contact{
+        position: relative;
+        border:1.5px solid black;
+        margin: 10px auto;
+        height: auto;
+        font-size: .8rem;
+        padding:0.75rem;
+        background-color: #828E95;
+        
+    }
+    #map{
+        float:right;
+        width:55%;
+        margin-bottom: 5px;
+        display:none;
+        
+    }
 
 
       

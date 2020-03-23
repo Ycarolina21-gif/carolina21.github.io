@@ -49,6 +49,11 @@ nav ul li a {
   margin-right: .6rem;
 }
 
+#map {
+  display: block;
+  width:37%;
+}
+
 h2 {text-align:center;}
 
 

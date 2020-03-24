@@ -217,7 +217,7 @@ main picture.photoA img, main picture.photoB img{
     border:1.5px solid black;
     margin: 10px auto;
     height: auto;
-    font-size: .8rem;
+    font-size: .9rem;
     padding:0.75rem;
     background-color: #828E95;
     
@@ -225,7 +225,7 @@ main picture.photoA img, main picture.photoB img{
 #map{
     float:right;
     width:55%;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     display:none;
     
 }
@@ -309,6 +309,7 @@ grid-gap: 2px;
 
 #Idaho{
     max-width:100%;
+    padding-top:8px;
    }
   .townsection  img{
         max-width:70%;

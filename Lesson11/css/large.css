@@ -38,5 +38,23 @@ nav ul li a {
         font-weight: bold;
     
     }
-    
+    .herodv {
+      grid-template-columns: 1fr 1fr 1fr;
+
+     }
+     .townsection {
+      display: block;
+  }
+ 
+  .townsection div {
+      height: 250px;
+  }
+  main  div.cards {
+      
+      display:grid;
+      grid-template-columns: 1fr 1fr 1fr;
+   
+  
+  
+}
 } /*end large */

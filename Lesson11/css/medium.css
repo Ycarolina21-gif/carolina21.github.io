@@ -89,7 +89,37 @@ div.Forecast1{
 .Temp{
   background-color:#445661;
 }
+.herodv {
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap:15px;
+  text-align:center;
+  grid-column-gap:2px;
+
+ }
+ .cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.townsection:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.townsection {
+  display: flex;
+  width: 95%;
+
+  padding: 5px 5px;
+  margin-bottom: 20px;
+}
 
 
+
+.townsection div {
+  margin: auto;
+}
+
+.townphoto {
+  width: 90%;
+}
  } /*end medium */
 

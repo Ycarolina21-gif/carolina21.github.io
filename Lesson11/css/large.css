@@ -57,4 +57,15 @@ nav ul li a {
   
   
 }
+.norm  :hover {box-shadow: 0 0 50px #333;}
+.norm1 :hover {box-shadow: 0 0 50px #333;} 
+.norm2 :hover {box-shadow: 0 0 50px #333;}
+.norm3 :hover {box-shadow: 0 0 50px #333;}
+.norm4 :hover {box-shadow: 0 0 50px #333;}
+.norm5 :hover {box-shadow: 0 0 50px #333;}
+.norm6 :hover {box-shadow: 0 0 50px #333;}
+.norm7 :hover {box-shadow: 0 0 50px #333;}
+.norm8 :hover {box-shadow: 0 0 50px #333;}
+.norm9 :hover {box-shadow: 0 0 50px #333;}
+
 } /*end large */

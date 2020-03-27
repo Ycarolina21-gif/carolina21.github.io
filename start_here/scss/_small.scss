@@ -1,0 +1,140 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* body rules */
+body {
+    font-family: Verdana;
+    font-size: 16px;
+    
+}
+
+
+header {
+    background-color: #17a8e4;
+    padding: 1rem 2%;
+}
+header h1 {
+	margin: 0; 
+	font-size: 1.1rem;
+}
+header h2{
+	margin: 0; 
+	font-size: 1.2rem; 
+	font-weight: normal;
+}
+header section {
+    margin:auto 0;
+    flex: 0.9;
+}
+#logo{
+    padding-left: 4rem;
+}
+
+nav {background-color: #111;  
+    ul{margin:0; padding: 0;}
+     li {list-style-type: none;    position: relative;}
+     li.active {background-color: #333}
+     a {
+        display: block;
+        padding: .8rem 0; /*44px min*/
+        color: #eee;
+        text-align: center;
+        text-decoration: none;
+     }//end of the a
+     a:hover {background-color: #444;}
+     button{
+        margin:.2rem 2%;
+        background-color: transparent;
+        border: none;
+        /*font-size: 1.6 rem;*/
+        color: #fff;   
+        text-align: center;
+        width: 100%;}
+        ul.hide {
+            display: none;
+        }
+
+    } //end of nav
+    #herodiv{
+        position: relative;
+        
+    }
+    //top
+section{
+    display: block;
+}
+  .hero-ph {
+      background-color:#A59B96;
+    position: absolute;
+    background-color: none;
+    top:.2rem;
+    left:2rem;
+    justify-content: center;
+    padding: .2rem;
+    text-align: center;
+    font-size:1rem ;
+    border : 1px solid #311E16 ;
+    
+  }
+  .herito{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    color:black;
+
+  }
+   
+  picture.photoA{
+    display:block;
+    width:96%;
+    margin: 0 2%;
+
+}
+main {display: block; padding: 1rem 2%;
+    picture.photoA div, main picture.photoB div{
+    text-align:center;}
+
+    picture.photoA img, main picture.photoB img{
+    width:100%;}
+    h1 {color: #17a8e4;}
+
+    figure img {width: 100%;}
+    figure{
+    margin: 0;
+    width: 100%;}
+    figcaption {text-align: center; font-size: .8rem;}
+    //end of the main
+}
+//Forescast//
+.Forecast1 {
+    display: none;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    background-color: rgb(56, 54, 54);;
+    margin: 0 auto; 
+    color:white;
+  }
+  .Forecast1 h2{
+    grid-column-start:span 5;
+    justify-content: center;
+}
+
+footer {
+    background-color: #17a8e4;
+    text-align: center;
+    padding: 1rem 2%;
+}
+.Article{
+ margin-top: 30px;
+}
+
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

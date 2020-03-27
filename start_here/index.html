@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Fill Me In">
+<meta name="author" content="John Doe">
+<title>Events: Christmas Ranch</title>
+
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+
+
+<!-- STYLE SHEETS -->
+<link href="css/styles1.css" rel="stylesheet">
+
+
+
+     
+</head>
+<body>
+<header>
+    <div>
+  <img id=logo src="images/Logo.png" alt="Logo">
+  <section>
+  <h1>Salmon River Adventure</h1>
+  </section>
+  </div>
+</header>
+<!--Navigation-->
+<nav class="clearfix">
+<button onclick="toggleMenu()"> &#9776;</button>
+<ul id="primaryNav" class="hide">
+  <li><a href="index.html">Services</a></li>
+  <li><a href="#">Location</a></li>
+  <li class="active"><a href="#">Events</a></li>
+  <li><a href="#">Contact</a></li>
+</ul>
+
+</nav>
+ 
+<!---Main-->
+<main>
+
+    <section id="herodiv">
+        <picture class="photoA">
+            <source srcset="images/FrontFirstPage-S.jpg" media="(max-width: 400px)">
+            <source srcset="images/FrontFirstPage-M.jpg" media="(max-width: 800px)">
+            <source srcset="images/FrontFirstPage-L.jpg" media="(max-width: 1400px)">
+        <img id="FrontFirstPage" src="images/FrontFirstPage-L.jpg" alt="Riggins,Idaho">  
+        </picture>
+    <div class="hero-ph">
+
+            <h3>Weather summary</h3>
+            <div class="herito">
+            <div>Temperature: </div>
+            <div><span id="currentTemp"> </span>&deg;F</div>
+            <div>High:</div>
+              <div><span id="Temp"></span>&deg;F</div>
+            <div>Wind chill:</div>
+              <div>  <span id="windChill"></span></div>
+            <div>Humidity:  </div>
+            <div><span id="humidity"></span>%</div>
+            <div>Wind Speed:  </div>
+            <div> <span id= "windSpeed"> </span>mph</div>
+           </div>
+        </div>
+        </section>
+        
+        <div class= "Forecast1"> 
+          <h2>5 day Forecast</h2>      
+          <div class="weather" id="day1"> <h3>Day 1</h3> 
+          </div>
+          <div class="weather" id="day2"><h3>Day2</h3>
+          </div>
+          <div  class="weather" id="day3"><h3>Day 3</h3> 
+      </div>
+          <div  class="weather" id="day4"><h3>Day 4</h3>
+          </div>
+          <div  class="weather" id="day5"><h3>Day 5 </h3>
+          </div>
+          
+          
+          <div class="Temp"><img id="icon1" alt="weather icon" src="images/placeholder.jpg" ><span id="temp1"> </span> &deg;F</div>
+          <div class="Temp"><img id="icon2" alt="weather icon" src="images/placeholder.jpg"><span id="temp2"> </span>&deg;F</div>
+          <div class="Temp"><img id="icon3" alt="weather icon" src="images/placeholder.jpg"><span id="temp3"></span>&deg;F</div>
+          <div class="Temp"><img id="icon4" alt="weather icon" src="images/placeholder.jpg" ><span id="temp4"></span>&deg;F</div>
+          <div class="Temp"><img id="icon5" alt="weather icon" src="images/placeholder.jpg"><span id="temp5"></span>&deg;F</div>
+         
+         
+      </div>
+      <div class= "Article"> 
+        If you are looking for some adventure and spend a great time with your family and friend.
+        Salmon River Adventure is your option. Here you will find a wonderful view in the longest river 
+        system contained entirely within a single U.S. state. We count with differents adventures where you 
+        can expend the next vacations here.
+        </div>
+
+        <div class="cards"></div>
+
+    
+</main>
+
+<footer>
+&copy; Paul Cheney 2018
+</footer>
+<script src="js/scripts.js"></script>
+<script src="js/forecast.js"></script>
+<script src="js/weatherapi.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

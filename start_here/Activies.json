@@ -1,0 +1,30 @@
+
+{
+    "Activity": [
+      {
+        "name": "Whitewater Rafting",
+        "photo": "WhiterRafting.jpg",
+        "SkillLevel": "Medium",
+        "Length": 62,
+        "Cost": 800,
+        "MinimumAge": 8 
+        
+      },
+      {
+        "name": "Kayaking",
+        "photo": "Kayaking.jpg",
+        "SkillLevel": "Beginner",
+        "Length": 32,
+        "Cost": 400,
+        "MinimumAge": 6 
+      },
+      {
+        "name": "Jet Boat tour",
+        "photo": "Boat.jpg",
+        "SkillLevel": null,
+        "Length": 20,
+        "Cost": 200,
+        "MinimumAge": 5
+      } 
+    ]
+  }

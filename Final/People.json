@@ -1,0 +1,32 @@
+
+{
+    "People": [
+      {
+        "name": "John Carson",
+        "photo": "person1.jpg",
+        "Certification": "Swiftwater Rescue Technician, SRT, Whitewater Rescue Technician and WRT.",
+        "Years": 15,
+        "Email": "John.Carson@gmail.com",
+        "Brief": "I love do extreme sports, and in my 15 years of experience allow me do this, in the best safety way. You don't need to be worry about anything, you are comming here to enjoy" 
+        
+      },
+      {
+        "name": "Steve Smith",
+        "photo": "person2.jpg",
+        "Certification": "Swiftwater Rescue Technician, SRT, Whitewater Rescue Technician, WRT and ACA Raft Guide Instructor Course",
+        "Years": 20,
+        "Email": "Steve.Smith@gmail.com",
+        "Brief": "My pation for the otudoors bring me to this beautiful area in Idaho.I have been preapare myself in a professional way, with the purpose of bring you the security that you deserve. " 
+        
+      },
+      {
+        "name": "David Olson",
+        "photo": "person3.jpg",
+        "Certification": "Swiftwater Rescue Technician, SRT, Whitewater Rescue Technician, WRT and boat certification",
+        "Years": 14,
+        "Email": "David.Olson@gmail.com",
+        "Brief": "I grow up in Idaho, and I alway have been love this wonderful state. When I grow up, I decide that I should show this wonderful state to other people, so I dice preper myself, to give the best service to my clients. " 
+        
+      } 
+    ]
+  }

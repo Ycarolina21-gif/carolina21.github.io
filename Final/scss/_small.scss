@@ -6,8 +6,9 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 /* body rules */
 body {
-    font-family: Verdana;
-    font-size: 16px;
+    
+    overflow-x: hidden;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
     
 }
 
@@ -33,7 +34,8 @@ header section {
     padding-left: 4rem;
 }
 
-nav {background-color: #111;  
+nav {   border-color: transparent;
+    background-color: #222;  
     ul{margin:0; padding: 0;}
      li {list-style-type: none;    position: relative;}
      li.active {background-color: #333}
@@ -60,6 +62,7 @@ nav {background-color: #111;
     } //end of nav
     #herodiv{
         position: relative;
+        padding-left: 0;
         
     }
     //top
@@ -88,15 +91,15 @@ section{
    
   picture.photoA{
     display:block;
-    width:96%;
-    margin: 0 2%;
+    width:100%;
+    filter: contrast(70%);
 
 }
-main {display: block; padding: 1rem 2%;
-    picture.photoA div, main picture.photoB div{
+main {display: block;background-color:#A59B96; 
+    picture.photoA div{
     text-align:center;}
 
-    picture.photoA img, main picture.photoB img{
+    picture.photoA img{
     width:100%;}
     h1 {color: #17a8e4;}
 
@@ -105,6 +108,7 @@ main {display: block; padding: 1rem 2%;
     margin: 0;
     width: 100%;}
     figcaption {text-align: center; font-size: .8rem;}
+   
     //end of the main
 }
 //Forescast//
@@ -124,17 +128,71 @@ main {display: block; padding: 1rem 2%;
 
 footer {
     background-color: #17a8e4;
-    text-align: center;
-    padding: 1rem 2%;
+    height: auto;
+    text-align: center; 
+    padding:0.75rem;
+    margin: 0 auto;
+    
+}
+footer p{
+    margin-left: 30px;
 }
 .Article{
- margin-top: 30px;
+ margin:30px;
 }
 
 
+main div.cards {
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-content:center;
+    margin: auto;
+    text-align:center;
+    padding: .10rem;
+    grid-gap: 10px;
+    padding: 0.5rem;
+     
+    }
+
+ div.cards section   {
+       
+        border: 1px solid rgb(30, 51, 37);
+        border-radius: 5px;
+        background-color: #8FBAEC;
+    }
+    .Activityphoto  {
+        background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 0.1rem;
+  border-top-right-radius: 0.1rem;
+  width:100%;
+  filter: contrast(70%);
+  //filter: saturate(180%);
+  overflow: hidden;
+  position: relative;
+  transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);;
+  &::before {
+    content: "";
+	  display: block;
+    padding-top: 56.25%; // 16:9 aspect ratio
+    
+  }
+}
+ 
+
+#map{
+    float:right;
+    margin-top: 0;
+    display:none;
+    height:100%;
+    margin-right:10px;
+    
+}
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
+

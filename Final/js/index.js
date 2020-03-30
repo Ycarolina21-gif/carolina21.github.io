@@ -7,10 +7,17 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
     const Activity = jsonObject['Activity'];
-    for (let i = 0; i < towns.length; i++ ) {
+    for (let i = 0; i < Activity.length; i++ ) {
       if (Activity[i].name == "Whitewater Rafting" || Activity[i].name == "Kayaking"||  Activity[i].name == "Jet Boat tour") {
         let card = document.createElement('section');
         card.setAttribute('class', 'Activitysection');
+        
+        let image = document.createElement('img');
+        image.setAttribute('class', 'Activityphoto');
+        image.setAttribute('src', "images/" + Activity[i].photo);
+       card.appendChild(image);
+       document.querySelector('div.cards').appendChild(card);
+        
         let carddiv = document.createElement('div')
         card.appendChild(carddiv);
      
@@ -18,13 +25,7 @@ fetch(requestURL)
       h2.setAttribute('class', 'Activityname');
         h2.textContent = Activity[i].name;
         carddiv.appendChild(h2);
-
-        let image = document.createElement('img');
-        image.setAttribute('class', 'Activityphoto');
-        image.setAttribute('src', "images/" + Activity[i].photo);
-        image.setAttribute('alt', "picture of: " + h2.textContent);
-       card.appendChild(image);
- 
+        
         let SkillLevel  = document.createElement('p');
         SkillLevel.setAttribute('class', 'ActivitySkillLevel');
         SkillLevel.textContent = "Skill Level: " + Activity[i].SkillLevel;

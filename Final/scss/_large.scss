@@ -10,5 +10,17 @@
          ul.hide {display: flex;}
     }   
     main figure { width: 31%;}
+    main  div.cards {
+      
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr; 
+  }
+  .Activitysection {
+    display: block;
+}
+
+.Activitysection div {
+    height: 250px;
+}
     
     div.news {column-count: 3;}

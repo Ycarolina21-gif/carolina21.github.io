@@ -33,97 +33,98 @@
   <div class="container">
 <button onclick="toggleMenu()"> &#9776;</button>
 <ul id="primaryNav" class="hide">
-  <li class="active"><a href="index.html">Home</a></li>
+  <li ><a href="index.html">Home</a></li>
   <li><a href="#">River Guide</a></li>
   <li ><a href="#">Contact</a></li>
-  <li><a href="#">Reservations</a></li>
+  <li class="active"><a href="#">Reservations</a></li>
   
 </ul>
-
-</nav>
 </div>
+</nav>
+
 <!---Main-->
-<main >
-  <h1 >Reservations</h1>
+<main class=sepa>
   <form method="get" action="thankyou.html">
-  <div class="hdiv" >
+  <div class="form">
+  <h1 >Reservations</h1>
       <fieldset>
           <legend>Personal Information </legend>
-      <label>Full name:</label>
-      <input type="text"  name="input1" required >
- <label >Enter your email: </label>
-<input type="email" name="email" id="email" placeholder="user@email.com" required>
+      <label>Full name:</label><br>
+      <input type="text"  name="input1" required ><br><br>
+ <label >Enter your email: </label><br>
+<input type="email" name="email" id="email" placeholder="user@email.com" required><br><br>
 
-  <label>Phone number:</label>
- <input type="tel" id="phone-number" name="phone-number" placeholder="###-###-####" required> 
+  <label>Phone number:</label><br>
+ <input type="tel" id="phone-number" name="phone-number" placeholder="###-###-####" required> <br><br>
 
- <label>Zip Code:</label>
- <input type="number" id="zipcode" name="zipcode" required>
+ <label>Zip Code:</label><br>
+ <input type="number" id="zipcode" name="zipcode" required><br><br>
       </fieldset>
       <fieldset>
-          <legend>Reservation information </legend>
- <label  >Reservation Date:</label>
- <input type="date" id="stormDate" name="ReservationDate" >
+          <legend>Reservation Information </legend>
+ <label  >Reservation Date:</label><br>
+ <input type="date" id="traDate" name="ReservationDate" ><br><br>
+ <label class="travel">Trip</label><br>
+      <select name="travel">
+      <option value="" disabled="disabled" selected="selected">Select trip</option>
+      <option value="whitewater rafting">Whitewater rafting</option>
+      <option value="kayaking">Kayak</option>
+      <option value="Jet">Jet Boat Tour</option>
+      </select><br><br>
+ <label >Quantity </label><br><br>
 
- <label >Quantity </label>
- <lable>Adults</lable>
-<input name="browsers" list="browserlist">
-<datalist id="browserlist">
-<option value="1">
-<option value="2">
-<option value="3">
-  <option value="4">
-  <option value= "5">
-</datalist>
-<lable>Kids</lable>
-<input name="browsers" list="browserlist">
-<datalist id="browserlist">
-<option value="1">
-<option value="2">
-<option value="3">
-  <option value="4"> 
-</datalist>
+ <label class="Adults">Adults</label>
+ <select name="adults">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+  <option value="4">4</option>
+  <option value= "5">5</option>
+ </select>
+
+ <label class="Kids">Kids</label>
+ <select name="kids">
+  <option value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+  <option value="4">4</option>
+  <option value= "5">5</option>
+ </select><br><br>
       </fieldset>
       <fieldset>
 <legend>Payment information </legend>
-<label>Card holder name:</label>
-<input type="text"  name="input1" required >
-<label >Enter your email: </label>
-<input type="email" name="email" id="email" placeholder="user@email.com" required>
-
-<label>Phone number:</label>
-<input type="tel" id="phone-number" name="phone-number" placeholder="###-###-####" required> 
-
-<label>Zip Code:</label>
-<input type="number" id="zipcode" name="zipcode" required>
+<label>Card holder name:</label><br>
+<input type="text"  name="input1" required ><br><br>
+<label >Card number: </label><br>
+<input type="number" name="cardnumber" id="cardnumber" placeholder="" required><br><br>
+<input type="date" id="ExDate" name="expirationDate" required ><br><br>
+<label>cvv:</label><br>
+<input type="number" id="cvv" name="cvv" placeholder="###" required> <br><br>
+<label>Zip Code:</label><br>
+<input type="number" id="zipcodeA" name="zipcode" required><br><br>
 </fieldset>
-
 <div class="buttons">
   <input type="submit">
-
 </div>
-</div> 
+</div>
 </form>
-
-
-  </div> 
-   
-
-    
+<div class="inf"></div>   
 </main>
 
-<footer>
-  <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2800.5752678345807!2d-116.31988428461989!3d45.41790377910041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54a6c5695ed5fae5%3A0x837cd0558ffd520c!2s1000%20S%20Main%20St%2C%20Riggins%2C%20ID%2083549!5e0!3m2!1sen!2sus!4v1585582414530!5m2!1sen!2sus" width="550" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" alt="map"></iframe>
-    
-    <p>1000 S Main St., Riggins, ID 83263</p>
-    <p><img src="images/phone-call.png" alt="call"> 999-999-999
-    <img src="images/envelope.png" alt="mail"> salmonRr@gmail.com</p>
-    <p>
-    <img src="images/facebook.png" alt="facebook">
-   <img src="images/instagram.png" alt= "instagram">
-   <img src="images/twitter.png" alt="twitter"></p> 
+<footer>  
+  <ul class="fo">
 
+        <li>1000 S Main St., Riggins, ID 83263</li>
+    <li><img src="images/phone-call.png" alt="call"> 999-999-999</li>
+    
+ 
+    <li><img src="images/facebook.png" alt="facebook">
+   <img src="images/instagram.png" alt= "instagram">
+  <img src="images/twitter.png" alt="twitter"> </li>
+  </ul>
   
 </footer>
+<script src="js/Events.js"></script>
 </body>
 </html>

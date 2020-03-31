@@ -103,3 +103,37 @@ padding-top: 56.25%; // 16:9 aspect ratio
   .Description {
     text-align:left;
   }
+  /* Reservation*/
+  .fo li{
+    display: inline-block;
+    padding-right: 13rem;
+    list-style-type: none;   
+}
+form{
+  align-items: center;
+}
+main div.inf {
+  justify-content:center;
+  margin: auto;
+  text-align:center;
+  padding: .10rem;
+  grid-gap: 10px;
+  padding: 0.5rem;
+  float: right;
+  padding-left: 30%;
+}
+.Reserphoto{
+  width:100%;
+}
+
+div.inf{
+  width:100%
+}
+.sepa{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  height: auto;
+}
+.reservationsection{
+  width:80%;
+}

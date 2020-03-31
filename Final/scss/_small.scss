@@ -101,7 +101,7 @@ main {display: block;background-color:#A59B96;
 
     picture.photoA img{
     width:100%;}
-    h1 {color: #17a8e4;}
+    h1 {color: $color_white;}
 
     figure img {width: 100%;}
     figure{
@@ -348,4 +348,14 @@ div.inf section   {
 .thankyou{
 padding: 0.5rem;
 text-align: center;
+}
+/*Contact*/
+.contact{
+    padding: 0.5rem; 
+    text-align: center;  
+    background-image:url(../images/im.jpg);
+}
+#mapA{
+    align-items: center;
+    padding-left: 1rem;
 }

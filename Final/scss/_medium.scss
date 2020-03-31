@@ -83,4 +83,23 @@ padding-top: 56.25%; // 16:9 aspect ratio
       text-align: left;
      
   }
+  .blog {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Peoplesection:nth-child(even) {
+    flex-direction: row-reverse;
+  }
+  .Peoplesection{
+    display:flex;
+    width: 95%;
+    padding-bottom: 50px;
+  }
     
+  .Peoplephoto {
+    width:60%;
+    
+  }
+  .Description {
+    text-align:left;
+  }

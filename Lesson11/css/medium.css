@@ -103,7 +103,10 @@ div.Forecast1{
 .townsection:nth-child(even) {
   flex-direction: row-reverse;
 }
-
+.blog{
+  text-align: none;
+  justify-content: right;
+}
 .townsection {
   display: flex;
   width: 95%;
@@ -111,9 +114,10 @@ div.Forecast1{
   padding: 5px 5px;
   margin-bottom: 20px;
 }
+.Peoplephoto{
+  width:100%;
 
-
-
+}
 .townsection div {
   margin: auto;
 }

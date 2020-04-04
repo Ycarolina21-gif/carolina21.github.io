@@ -45,6 +45,11 @@ fetch(requestURL)
         MinimumAge.setAttribute('class', 'ActivityMinimumAge');
         MinimumAge.textContent = "Minimum Age: "  + Activity[i].MinimumAge + "years";
         carddiv.appendChild(MinimumAge);
+        
+        let Ex = document.createElement ('h4');
+        Ex.setAttribute('class', 'ActivityEx');
+        Ex.textContent = Activity[i].Ex;
+        carddiv.appendChild(Ex);
       
 
         document.querySelector('div.cards').appendChild(card);

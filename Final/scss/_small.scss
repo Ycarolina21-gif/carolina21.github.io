@@ -360,13 +360,11 @@ text-align: center;
 .contact{
     padding: 0.5rem; 
     text-align: center;  
+    align-items: center;
     background-image:url(../images/im.jpg);
     font-family: $fontthird;
 }
-#mapA{
-    align-items: center;
-    padding-left: 1rem;
-}
+
 
 #map{
     width:50%;

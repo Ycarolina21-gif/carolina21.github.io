@@ -50,6 +50,7 @@ fetch(requestURL)
         carddiv.appendChild(Brief);
 
         document.querySelector('div.blog').appendChild(card);
+        image.setAttribute('alt', "picture of: " + h2.textContent);
 
   }}}); 
  ;

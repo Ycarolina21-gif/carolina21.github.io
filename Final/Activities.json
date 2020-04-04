@@ -7,7 +7,7 @@
         "SkillLevel": "Medium",
         "Length": 62,
         "Cost": 800,
-        "MinimumAge": 8 
+        "MinimumAge": 8
         
       },
       {
@@ -17,11 +17,12 @@
         "Length": 32,
         "Cost": 150,
         "MinimumAge": 6 
+        
       },
       {
         "name": "Jet Boat tour",
         "photo": "Boat.jpg",
-        "SkillLevel": null,
+        "SkillLevel": "You don't need skill level",
         "Length": 20,
         "Cost": 200,
         "MinimumAge": 5

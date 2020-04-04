@@ -46,6 +46,8 @@ fetch(requestURL)
         MinimumAge.textContent = "Minimum Age: "  + Activity[i].MinimumAge + "years";
         carddiv.appendChild(MinimumAge);
 
+
+
         document.querySelector('div.inf').appendChild(card);
         image.setAttribute('alt', "picture of: " + h2.textContent);
   }}}); 

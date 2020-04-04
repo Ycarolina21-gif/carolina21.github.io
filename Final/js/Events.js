@@ -47,7 +47,7 @@ fetch(requestURL)
         carddiv.appendChild(MinimumAge);
 
         document.querySelector('div.inf').appendChild(card);
-
+        image.setAttribute('alt', "picture of: " + h2.textContent);
   }}}); 
  ;
 

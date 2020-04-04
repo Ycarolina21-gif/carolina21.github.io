@@ -15,7 +15,6 @@ fetch(requestURL)
         let image = document.createElement('img');
         image.setAttribute('class', 'Activityphoto');
         image.setAttribute('src', "images/" + Activity[i].photo);
-        image.setAttribute('alt', "picture of: " + h2.textContent);
        card.appendChild(image);
        document.querySelector('div.cards').appendChild(card);
         
@@ -48,7 +47,7 @@ fetch(requestURL)
         carddiv.appendChild(MinimumAge);
 
         document.querySelector('div.cards').appendChild(card);
-
+        image.setAttribute('alt', "picture of: " + h2.textContent);
   }}}); 
  ;
 

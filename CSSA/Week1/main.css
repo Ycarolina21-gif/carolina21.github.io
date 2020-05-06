@@ -1,137 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+.title {
+  text-align: right;
+}
 
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+header {
+  background-color: #6495ED;
+  padding: 8%;
+  text-align: right;
+}
+header a {
+  color: #FAEBD7;
+  text-decoration: none;
+}
+header a:active a {
+  color: #DEB887;
+}
+header a:hover {
+  color: white;
+  text-decoration: underline;
+}
 
-
- .title{
-     text-align: right;
- }
- header a{
-    color:#FAEBD7;
-    text-decoration:none;
- }
-header a:active a{color:#DEB887;}
-header a:hover { color:white; text-decoration: underline;
-     }
- header{
-    background-color:#6495ED;
-    padding: 8%;
-    text-align: right;
-    
- }
-nav {   border-color: transparent;
-    } 
-nav  ul{margin:0; padding: 0;}
-nav  li {list-style-type: none;   
-     position: relative;}
+nav {
+  border-color: transparent;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav ul li.active a {
+  color: #DEB887;
+}
+nav ul li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+nav li {
+  list-style-type: none;
+  position: relative;
+}
 nav a {
-        display: block;
-        padding: .8rem 0; /*44px min*/
-        text-align: right;
-        text-decoration: none;
-        color:#FAEBD7;
-     }
- nav ul li.active a{color:#DEB887;}
-nav ul li a:hover { color:white; text-decoration: underline;
-     }
+  display: block;
+  padding: 0.8rem 0;
+  /*44px min*/
+  text-align: right;
+  text-decoration: none;
+  color: #FAEBD7;
+}
 
-  article{
-    display:grid;
-    grid-template-columns: 1fr;
-    justify-content:center;
-    margin: auto;
-    text-align:center;
-    padding: 1.2rem;
-    
+article {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  padding: 1.2rem;
+}
 
-      
-  }
-  img{
-      width: 12rem;
-      
-  }
-  main{
-      background-color: #FAEBD7;
-  }
-  article h2 a{
-    color:black;
-    text-decoration:none;
- }
-article h2 a:active a{color:#DEB887;}
-article h2 a:hover { color: black; text-decoration: underline;
-     }
-      
-  .post-content{
-      background-color: white;
-      box-shadow: 10px 10px 5px grey;
-      
-  }
-  main h2{
-    text-align: left;
-    padding-left: 10%; 
-    padding-right: 10%;
-  }
-  .post-date{
-    background-color: white; 
-    text-align: left;
-    padding-left: 10%;
-    padding-top: 5%;
-    color: grey;
-    box-shadow: 10px 10px 5px grey;
-  }
-  hr{
-    color:#FAEBD7
-  }
-  main p{
-    padding-left: 10%; 
-    padding-right: 10%;
-  }
-  p a{
-    color:#6495ED;
-    text-decoration:none;
- }
-p a:active a{color:#DEB887;}
-p a:hover { color: #6495ED; text-decoration: underline;
-     }
+img {
+  width: 12rem;
+}
 
-     body p{
-       font-family:Helvetica, Arial, sans-serif;;
-     }
-     h1{
-      font-family: 'Lora', serif;
-     }
-     h2{
-      font-family: 'Lora', serif;
-     }
-     
-     /* 64em is also 1028px when basefont is 16px */
+main {
+  background-color: #FAEBD7;
+}
+
+article h2 a {
+  color: black;
+  text-decoration: none;
+}
+article h2 a:active a {
+  color: #DEB887;
+}
+article h2 a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.post-content {
+  background-color: white;
+  box-shadow: grey;
+}
+
+main h2 {
+  text-align: left;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+main p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.post-date {
+  background-color: white;
+  text-align: left;
+  padding-left: 10%;
+  padding-top: 5%;
+  color: grey;
+  box-shadow: grey;
+}
+
+hr {
+  color: #FAEBD7;
+}
+
+p a {
+  color: #6495ED;
+  text-decoration: none;
+}
+p a:active a {
+  color: #DEB887;
+}
+p a:hover {
+  color: #6495ED;
+  text-decoration: underline;
+}
+
+body p {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-family: "Lora", serif;
+}
+
+h2 {
+  font-family: "Lora", serif;
+}
+
+/* 64em is also 1028px when basefont is 16px */
 @media only screen and (min-width: 64rem) {
-
-    
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#36454f+2,00001c+100 */
   header {
-      position: absolute;
-      height:140.6%;
-      width:25%;
-      padding:3%;
+    position: absolute;
+    padding: 3%;
+    width: 25%;
+    height: 140.6%;
   }
-  nav ul {padding-left: 2%;}
-      nav ul.hide {display: flex;}
-  
-  main{
-  float:right;
-  width: 78%;
-  padding-left:2%;
-  margin-left: 20%;
-      margin-right: 10%;
+
+  nav ul {
+    padding-left: 2%;
   }
-  article{
-    float:right;
-    padding-left:2%;
+  nav ul.hide {
+    display: flex;
+  }
+
+  main {
+    float: right;
+    width: 78%;
+    padding-left: 2%;
+    margin-right: 10%;
+    margin-left: 20%;
+  }
+
+  article {
+    float: right;
+    padding-left: 2%;
     width: 53%;
-      margin-left: 30%;
-      margin-right: 10%;
-    }
-  p{
-      text-align: left;
+    margin-right: 10%;
+    margin-left: 30%;
   }
+
+  p {
+    text-align: left;
   }
+}
+
+/*# sourceMappingURL=main.css.map */

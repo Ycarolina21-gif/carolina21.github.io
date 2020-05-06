@@ -1,0 +1,151 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+//colors
+$color-one: #FAEBD7;
+$color-two:#DEB887;
+$color-three:white;
+$color-four:#6495ED;
+$color-five:black;
+$color-six: grey;
+
+
+//mixin
+@mixin size($width, $height: $width) {
+  width: $width;
+  height: $height;
+}
+@mixin margin($marginRig, $marginLeft){
+  margin-right: $marginRig;
+  margin-left: $marginLeft;
+     
+}
+  
+ .title{
+     text-align: right;
+ }
+ header{
+  background-color:$color-four;
+  padding: 8%;
+  text-align: right;
+      a{
+      color:$color-one;
+      text-decoration:none;}
+      a:active a{color:$color-two;}
+      a:hover { color:$color-three; text-decoration: underline;
+      }
+    }
+
+ 
+nav {   border-color: transparent; 
+     ul{margin:0; padding: 0;
+        li.active a{color:$color-two;}
+        li a:hover { color:$color-three; text-decoration: underline;}
+    }
+     
+    li {list-style-type: none;   position: relative;}
+     a {
+        display: block;
+        padding: .8rem 0; /*44px min*/
+        text-align: right;
+        text-decoration: none;
+        color:$color-one;
+     }
+    }
+  article{
+    display:grid;
+    grid-template-columns: 1fr;
+    justify-content:center;
+    margin: auto;
+    text-align:center;
+    padding: 1.2rem;  
+  }
+  img{
+      width: 12rem;     
+  }
+
+  main{
+      background-color: $color-one;
+  }
+  article h2 {
+    a{
+    color:$color-five;
+    text-decoration:none;}
+    a:active a{color:$color-two;}
+    a:hover { color: $color-five; text-decoration: underline;}
+    }
+  .post-content{
+      background-color: $color-three;
+      box-shadow: $color-six;
+      
+  }
+  main {
+    h2{
+    text-align: left;
+    padding-left: 10%; 
+    padding-right: 10%;}
+  p{
+    padding-left: 10%; 
+    padding-right: 10%;}
+  }
+
+  .post-date{
+    background-color: $color-three; 
+    text-align: left;
+    padding-left: 10%;
+    padding-top: 5%;
+    color: $color-six;
+    box-shadow: $color-six;
+  }
+  hr{
+    color:$color-one;
+  }
+  
+  p {
+    a{color:$color-four;
+    text-decoration:none;}
+    a:active a{color:$color-two;}
+    a:hover { color: $color-four; text-decoration: underline;}
+  }
+
+     body p{
+       font-family:Helvetica, Arial, sans-serif;;
+     }
+     h1{
+      font-family: 'Lora', serif;
+     }
+     h2{
+      font-family: 'Lora', serif;
+     }
+    
+     /* 64em is also 1028px when basefont is 16px */
+@media only screen and (min-width: 64rem) {
+
+  header {
+      position: absolute;
+      padding:3%;
+      @include size(25%,140.6%);
+  }
+
+    nav{
+     ul {padding-left: 2%;}
+    ul.hide {display: flex;}
+    }
+  
+
+  main{
+  float:right;
+  width: 78%;
+  padding-left:2%;
+  @include margin(10%,20%);
+  }
+  article{
+    float:right;
+    padding-left:2%;
+    width: 53%;
+    @include margin(10%,30%);
+    }
+  p{
+      text-align: left;
+  }
+}

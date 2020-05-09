@@ -78,7 +78,7 @@ article h2 a:hover {
 
 .post-content {
   background-color: white;
-  box-shadow: grey;
+  box-shadow: 5px 10px grey;
 }
 
 main h2 {
@@ -97,7 +97,7 @@ main p {
   padding-left: 10%;
   padding-top: 5%;
   color: gray;
-  box-shadow: gray;
+  box-shadow: 5px 10px grey;
 }
 
 hr {

@@ -8,6 +8,7 @@ $color-three:white;
 $color-four:#6495ED;
 $color-five:black;
 $color-six: gray;
+$color-seven: 5px 10px grey;
 
 
 //mixin
@@ -76,7 +77,7 @@ nav {   border-color: transparent;
     }
   .post-content{
       background-color: $color-three;
-      box-shadow: grey;
+      box-shadow: $color-seven;
 }
   main {
     h2{
@@ -94,7 +95,7 @@ nav {   border-color: transparent;
     padding-left: 10%;
     padding-top: 5%;
     color: $color-six;
-    box-shadow: $color-six;
+    box-shadow: $color-seven;
   }
   hr{
     color:$color-one;

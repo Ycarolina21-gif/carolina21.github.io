@@ -72,7 +72,7 @@ article h2 a:active a {
   color: #DEB887;
 }
 article h2 a:hover {
-  color: black;
+  color: #6495ED;
   text-decoration: underline;
 }
 
@@ -134,7 +134,7 @@ h2 {
     position: absolute;
     padding: 3%;
     width: 25%;
-    height: 140.6%;
+    height: 146.8%;
   }
 
   nav ul {

@@ -9,6 +9,12 @@
 
 
 /* basic elements */
+
+$color-1: #55524b; // Army Green - Action color
+$color-2: #19191a; // Davy's Gray
+$color-3: #95846e; // Cadet gray
+$color-4: #505921; // Battleship gray
+$color-5: #f1f0ec; // Sand Tan
 html {
 	margin: 0;
 	padding: 0;
@@ -16,7 +22,7 @@ html {
 body { 
 	font-family: 'Libre Baskerville', serif;
 	line-height: 1.88889;
-	color: #55524b; 
+	color: $color-1; 
 	background: url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
 	margin: 0; 
 	padding: 0;
@@ -29,21 +35,21 @@ h3 {
 	font-family: 'Libre Baskerville', serif;
 	letter-spacing: 1px; 
 	margin-bottom: 0; 
-	color: #4B4A2E;
+	color: $color-1;
 	}
 a:link { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #B7A5DF;
+	color: $color-1;
 	}
 a:visited { 
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #D4CDDC;
+	color: $color-1;
 	}
 a:hover, a:focus, a:active { 
 	text-decoration: underline; 
-	color: #9685BA;
+	color: $color-1;
 	}
 abbr {
 	border-bottom: none;
@@ -52,7 +58,7 @@ abbr {
 
 /* specific divs */
 .page-wrapper { 
-	background: url(images/Sand.jpg) no-repeat top left; 
+	background: url(images/Sand3.jpg); 
 	padding: 0 175px 0 110px;  
 	margin: 0; 
 	position: relative;
@@ -64,6 +70,41 @@ abbr {
 	
 	}
 
+	.yin-yang {
+		width: 96px;
+		box-sizing: content-box;
+		height: 48px;
+		background: #eee;
+		border-color: red;
+		border-style: solid;
+		border-width: 2px 2px 50px 2px;
+		border-radius: 100%;
+		position: relative;
+	  }
+	  .yin-yang:before {
+		content: "";
+		position: absolute;
+		top: 50%;
+		left: 0;
+		background: #eee;
+		border: 18px solid red;
+		border-radius: 100%;
+		width: 12px;
+		height: 12px;
+		box-sizing: content-box;
+	  }
+	  .yin-yang:after {
+		content: "";
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		background: red;
+		border: 18px solid #eee;
+		border-radius: 100%;
+		width: 12px;
+		height: 12px;
+		box-sizing: content-box;
+	  }
 header h1 { 
 	
 	margin-top: 10px;
@@ -74,7 +115,7 @@ header h1 {
 font-family: 'Monoton', cursive;
 	white-space: nowrap;
 	overflow: hidden;
-	color:#95846E;
+	color:$color-1;
 	font-size: 2.2rem;
 	}
 header h2 { 
@@ -179,10 +220,10 @@ footer a:link, footer a:visited {
 	list-style-type: none;
 	}
 .sidebar li a:link {
-	color: #988F5E;
+	color: $color-1;
 	}
 .sidebar li a:visited {
-	color: #B3AE94;
+	color: $color-1;
 	}
 
 

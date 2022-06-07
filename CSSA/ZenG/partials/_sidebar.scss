@@ -1,0 +1,22 @@
+.sidebar{
+    display: flex;
+    flex-flow: column;
+    border-radius: 50px;
+    background-color: $color-2;
+    color: $color-5;
+    margin-top: 45px;
+    padding: 30px;
+    font-size: 0.6em;
+}
+
+.design-selection{
+    flex: 1 0xp;
+}
+
+.design-archives{
+     flex: 1 0xp;
+}
+
+.zen-resources{
+     flex: 1 0xp;
+}

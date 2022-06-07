@@ -1,0 +1,60 @@
+@import 'partials/reset';
+@import 'partials/prefix-mixins';
+@import 'partials/layout'; // responsive grid and media queries
+
+
+// color palette - these colors will be the color swatches of the Colors section
+
+$color-1: #55524b; // gray
+$color-2: #19191a; // dark gray
+$color-3: #95846e; // sand color
+$color-4: #505921; // green
+$color-5: #f1f0ec; // White
+
+// additional colors
+
+$success: #6fce72; // green
+$alert: $color-3; // red
+
+
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+$primary-font: 'Averia Sans Libre', cursive;
+$secondary-font: 'Monoton', cursive;
+
+Body{
+    background-color: $color-3;
+    font-family: $primary-font;
+    font-size: 2em;
+    background: url(Img/Sand2.jpg);
+    
+}
+
+.page-wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 12em;
+    padding-right: 2em;
+   
+    
+   //background-color: $color-3;
+}
+
+//link styes
+a{
+    color: $color-4;
+}
+a:hover a:active a:checked{
+    color: $color-5;
+}
+
+
+//headder section 
+@import 'partials/header';
+
+//Main Section
+@import 'partials/supporting';
+
+//side bar as a bottem section
+@import 'partials/sidebar';

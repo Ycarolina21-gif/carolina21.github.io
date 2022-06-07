@@ -1,0 +1,185 @@
+This is a list of all the Classes Id's and roles we can modify for our scss.
+sass --watch style.scss:style.css 
+
+body
+- id="css-zen-garden"
+
+Div
+- class="page-wrapper"
+
+	Section
+	- class="intro"
+	- id="zen-intro"
+
+		Header
+		- role="banner"
+
+		Div
+		- class="summary"
+		- id="zen-summary"
+		- role="article"
+
+		Div
+		- class="preamble"
+		- id="zen-preamble"
+		- role="article"
+	End of Section
+	
+	Div 
+	- class="main supporting"
+	- id="zen-supporting"
+	- role="main"
+		
+		Div
+		- class="explanation"
+		- id="zen-explanation"
+		- role="article"
+		
+		Div
+		- class="participation"
+		- id="zen-participation"
+		- role="article"
+		
+		Div
+		- class="benefits"
+		- id="zen-benefits"
+		- role="article"
+		
+		Div
+		- class="requirements"
+		- id="zen-requirements"
+		- role="article"
+		
+	End Div
+	
+	aside 
+	- class="sidebar"
+	- role="complementary"
+	
+		Div
+		- class="wrapper"
+		
+			Div
+			- class="design-selection"
+			- id="design-selection"
+			
+				h3
+				- class="select"
+				
+				Nav
+				- role="navigation"
+				
+					a
+					- class="design-name"
+					
+					a
+					- class="designer-name"
+					
+					a
+					- class="design-name"
+					
+					a
+					- class="designer-name"
+					
+					a
+					- class="design-name"
+					
+					a
+					- class="designer-name"
+					
+					a
+					- class="design-name"
+					
+					a
+					- class="designer-name"
+					
+					a
+					- class="design-name"
+					
+					a
+					- class="designer-name"
+					
+					a
+					- class="design-name"
+					
+					a
+					- class="designer-name"
+					
+					a
+					- class="design-name"
+					
+					a
+					- class="designer-name"
+					
+					a
+					- class="design-name"
+					
+					a
+					- class="designer-name"
+					
+		End of div
+		
+		Div
+		- class="design-archives"
+		- id="design-archives"
+		
+			h3
+			- class="archives"
+			
+			Nav
+			- role="navigation"
+				
+				li
+				- class="next"
+				
+				li 
+				- class="viewall"
+			
+		end of div
+			
+		Div
+		- class="zen-resources"
+		- id="zen-resources"
+		
+			h3
+			- class="resources"
+			
+				li
+				- class="view-css"
+				
+				li
+				- class="css-resources"
+				
+				li
+				- class="zen-faq"
+				
+				li
+				- class="zen-submit"
+				
+				li
+				- class="zen-translations"
+				
+				
+Div
+- class="extra1"
+- role="presentation"
+
+Div
+- class="extra2"
+- role="presentation"
+
+div
+- class="extra3"
+- role="presentation"
+
+div
+- class="extra4"
+- role="presentation"
+
+Div
+- class="extra5"
+- role="presentation"
+
+div
+- class="extra6"
+- role="presentation"
